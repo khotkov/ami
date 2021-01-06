@@ -1,5 +1,5 @@
 {
-    "name": "enniel/ami",
+    "name": "khotkov/ami",
     "type": "library",
     "description": "Provide asterisk ami to laravel",
     "keywords": [
@@ -17,22 +17,22 @@
     "require": {
         "php": ">=5.6.0",
         "ext-mbstring": "*",
-        "illuminate/support": "~5.1",
-        "illuminate/console": "~5.1",
-        "illuminate/events": "~5.1",
-        "illuminate/contracts": "~5.1",
-        "react/dns": "~0.4.3",
-        "react/stream": "~0.4.6",
-        "react/event-loop": "~0.4.2",
-        "react/socket-client": "~0.4.6",
-        "clue/ami-react": "~0.3.1",
-        "jackkum/phppdu": "~1.2.10"
+        "illuminate/support": "^8.0",
+        "illuminate/console": "^8.0",
+        "illuminate/events": "^8.0",
+        "illuminate/contracts": "^8.0",
+        "react/dns": "^0.4.3",
+        "react/stream": "^0.4.6",
+        "react/event-loop": "^0.4.2",
+        "react/socket-client": "^0.4.6",
+        "clue/ami-react": "^0.3.1",
+        "jackkum/phppdu": "^1.2.10"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "~2.0.0",
-        "phpunit/phpunit": "~4.5|~5.0",
-        "illuminate/config": "~5.1",
-        "illuminate/container": "~5.1"
+        "friendsofphp/php-cs-fixer": "^2.0.0",
+        "phpunit/phpunit": "^5.0",
+        "illuminate/config": "^8.0",
+        "illuminate/container": "^8.0"
     },
     "autoload": {
         "psr-4": {
